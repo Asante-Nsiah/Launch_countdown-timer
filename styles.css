@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/bg-stars.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(234, 17%, 12%);
+}
+
+.header-text{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:#FFFFFF ;
+    width: 327px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 6.13636px;
+    text-transform: uppercase;  
+    margin: 110px auto 0 auto;
+}
+
+.counter-container{
+    width: 327px;
+    margin: 31px auto 0 auto;
+    
+
+}
+
+.day-one,.hour-one,.minute-one,.seconds-one{
+    width: 70px;
+    height: 67px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 71px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.08px;
+    color: #FB5E84;
+}
+
+.counter-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+
+.period-text{
+    width: 70px;
+    text-align: center;
+    text-decoration: none;  
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    letter-spacing: 2.95937px;
+    color: #8385A9;
+}
+
+.hill{
+    margin: 150px auto 0 auto;
+    background-image: url(/images/pattern-hills.svg);
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    width: 136px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social-media img:hover{
+    cursor: pointer;
+    background-color: #FB5E84;
+    color: #FB5E84;
+}
+
+/* media queries */
+/* @media only screen and (min-width: 768px) {
+    .header-text{
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color:#FFFFFF ;
+        width: 440px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;  
+        margin: 100 auto 0 auto;
+    }
+} */
